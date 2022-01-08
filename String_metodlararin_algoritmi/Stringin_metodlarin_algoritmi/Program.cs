@@ -139,3 +139,5 @@ public class Program
 		Console.WriteLine("Result: "+newdata);
 	}
 }
+
+//Qalan meseleleri men birinci lesson papkasinda yaratmiwam.Izleye bilersiz.
