@@ -10,7 +10,7 @@ namespace switchla_mesele
             Console.WriteLine("1 regemini dahil etsez, regemin kvadratina geder butun regemlerin sum-i olan mesele secilecek");
             Console.WriteLine("2 regemini dahil etsez regeme geder sum-in hasila ile fergi olan mesele secilecek");
             int secim = Convert.ToInt32(Console.ReadLine());
-            
+            Secimmesele(secim);
             Console.ReadLine();
         }
         
