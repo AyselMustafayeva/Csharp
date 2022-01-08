@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 
 namespace orta_eded
@@ -7,7 +7,11 @@ namespace orta_eded
     {
         static void Main(string[] args)
         {
-            static void orta()
+            
+            orta();
+            Console.ReadLine();
+        }
+        static void orta()
             {
                 Console.WriteLine("Regemlerin sayini dahil et: ");
                 int say = Convert.ToInt32(Console.ReadLine());
@@ -23,8 +27,5 @@ namespace orta_eded
                 Console.WriteLine("Orta eded = "+Math.Round(ortaeded,3));
 
             }
-            orta();
-            Console.ReadLine();
-        }
     }
 }
