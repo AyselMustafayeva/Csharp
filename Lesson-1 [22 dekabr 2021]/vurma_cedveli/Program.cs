@@ -7,10 +7,13 @@ namespace vurma_cedveli
     {
         static void Main(string[] args)
         {
-            static void vurma()
+            Console.WriteLine("Regemi dahil et: ");
+            int regem = Convert.ToInt32(Console.ReadLine());
+            vurma(regem);
+            Console.ReadLine();
+        }
+          static void vurma(int regem)
             {
-                Console.WriteLine("Regemi dahil et: ");
-                int regem = Convert.ToInt32(Console.ReadLine());
                 int regem2 = 1;
                 for(int i = 1; i <= regem; i++)
                 {
@@ -18,8 +21,5 @@ namespace vurma_cedveli
                 }
                 Console.WriteLine("Vurma cedveli: "+regem2);
             }
-            vurma();
-            Console.ReadLine();
-        }
     }
 }
