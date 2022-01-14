@@ -1,0 +1,15 @@
+C:\Users\Ада\Desktop\Account_class\Account_class\bin\Debug\net6.0\Account_class.exe
+C:\Users\Ада\Desktop\Account_class\Account_class\bin\Debug\net6.0\Account_class.deps.json
+C:\Users\Ада\Desktop\Account_class\Account_class\bin\Debug\net6.0\Account_class.runtimeconfig.json
+C:\Users\Ада\Desktop\Account_class\Account_class\bin\Debug\net6.0\Account_class.dll
+C:\Users\Ада\Desktop\Account_class\Account_class\bin\Debug\net6.0\ref\Account_class.dll
+C:\Users\Ада\Desktop\Account_class\Account_class\bin\Debug\net6.0\Account_class.pdb
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.csproj.AssemblyReference.cache
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.AssemblyInfoInputs.cache
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.AssemblyInfo.cs
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.csproj.CoreCompileInputs.cache
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.dll
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\ref\Account_class.dll
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.pdb
+C:\Users\Ада\Desktop\Account_class\Account_class\obj\Debug\net6.0\Account_class.genruntimeconfig.cache
