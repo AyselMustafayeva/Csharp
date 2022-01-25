@@ -1,0 +1,15 @@
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.csproj.AssemblyReference.cache
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.AssemblyInfoInputs.cache
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.AssemblyInfo.cs
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.csproj.CoreCompileInputs.cache
+C:\Users\Ада\Desktop\FirstTask\FirstTask\bin\Debug\net6.0\FirstTask.exe
+C:\Users\Ада\Desktop\FirstTask\FirstTask\bin\Debug\net6.0\FirstTask.deps.json
+C:\Users\Ада\Desktop\FirstTask\FirstTask\bin\Debug\net6.0\FirstTask.runtimeconfig.json
+C:\Users\Ада\Desktop\FirstTask\FirstTask\bin\Debug\net6.0\FirstTask.dll
+C:\Users\Ада\Desktop\FirstTask\FirstTask\bin\Debug\net6.0\ref\FirstTask.dll
+C:\Users\Ада\Desktop\FirstTask\FirstTask\bin\Debug\net6.0\FirstTask.pdb
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.dll
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\ref\FirstTask.dll
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.pdb
+C:\Users\Ада\Desktop\FirstTask\FirstTask\obj\Debug\net6.0\FirstTask.genruntimeconfig.cache
