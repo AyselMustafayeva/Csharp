@@ -80,6 +80,7 @@ public class HelloWorld
 class Student
 {
     public static int No = 0;
+    public int Num;
     public string Name;
     public string Surname;
     public Student(string name, string surname)
@@ -87,6 +88,7 @@ class Student
         Name = name;
         Surname = surname;
         No++;
+        Num=No;
     }
 }
 
@@ -95,6 +97,7 @@ class Student
 class Group
 {
     public static int groupnum = 100;
+    public int Grnum;
     public int Counts;
      public string Name;
     List<Student> qruppaname = new List<Student>();
@@ -103,6 +106,7 @@ class Group
         Name = name;
         Counts = count;
         groupnum+=1;
+        Grnum=groupnum;
     }
     public void AddStudent(Student user)
     {
@@ -112,7 +116,7 @@ class Group
     {
         foreach (var student in qruppaname)
         {
-            Console.WriteLine(Student.No + " " + student.Name + " " + student.Surname);
+            Console.WriteLine(student.Num + " " + student.Name + " " + student.Surname);
         }
     }
     public void Uzunluq(Student user)
@@ -149,7 +153,7 @@ class Mekteb
     {
         foreach (var grups in mekteb)
         {
-                Console.WriteLine(Group.groupnum + " " + grups.Name);
+                Console.WriteLine(grups.Grnum + " " + grups.Name);
         }
     }
 
