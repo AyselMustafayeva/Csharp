@@ -1,0 +1,15 @@
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\bin\Debug\net6.0\All_11_Tasks.exe
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\bin\Debug\net6.0\All_11_Tasks.deps.json
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\bin\Debug\net6.0\All_11_Tasks.runtimeconfig.json
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\bin\Debug\net6.0\All_11_Tasks.dll
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\bin\Debug\net6.0\ref\All_11_Tasks.dll
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\bin\Debug\net6.0\All_11_Tasks.pdb
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.csproj.AssemblyReference.cache
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.AssemblyInfoInputs.cache
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.AssemblyInfo.cs
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.dll
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\ref\All_11_Tasks.dll
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.pdb
+C:\Users\Ада\Lesson-4\All_11_Tasks\All_11_Tasks\obj\Debug\net6.0\All_11_Tasks.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\Ада\Desktop\4Task\4Task\bin\Debug\net6.0\4Task.exe
+C:\Users\Ада\Desktop\4Task\4Task\bin\Debug\net6.0\4Task.deps.json
+C:\Users\Ада\Desktop\4Task\4Task\bin\Debug\net6.0\4Task.runtimeconfig.json
+C:\Users\Ада\Desktop\4Task\4Task\bin\Debug\net6.0\4Task.dll
+C:\Users\Ада\Desktop\4Task\4Task\bin\Debug\net6.0\ref\4Task.dll
+C:\Users\Ада\Desktop\4Task\4Task\bin\Debug\net6.0\4Task.pdb
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.csproj.AssemblyReference.cache
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.AssemblyInfoInputs.cache
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.AssemblyInfo.cs
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.csproj.CoreCompileInputs.cache
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.dll
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\ref\4Task.dll
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.pdb
+C:\Users\Ада\Desktop\4Task\4Task\obj\Debug\net6.0\4Task.genruntimeconfig.cache

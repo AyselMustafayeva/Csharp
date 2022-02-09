@@ -1,0 +1,15 @@
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\bin\Debug\net6.0\Lesson-12(Task_1).exe
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\bin\Debug\net6.0\Lesson-12(Task_1).deps.json
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\bin\Debug\net6.0\Lesson-12(Task_1).runtimeconfig.json
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\bin\Debug\net6.0\Lesson-12(Task_1).dll
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\bin\Debug\net6.0\ref\Lesson-12(Task_1).dll
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\bin\Debug\net6.0\Lesson-12(Task_1).pdb
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).csproj.AssemblyReference.cache
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).AssemblyInfoInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).AssemblyInfo.cs
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).csproj.CoreCompileInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).dll
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\ref\Lesson-12(Task_1).dll
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).pdb
+C:\Users\Aysel Mustafayeva\Desktop\тасклар\Lesson-12(Task_1)\Lesson-12(Task_1)\obj\Debug\net6.0\Lesson-12(Task_1).genruntimeconfig.cache
