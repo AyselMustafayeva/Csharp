@@ -62,8 +62,7 @@ public static class CashRegister
                     dict[CurrencyType.EUR] += mebleq;
                     TotalSalesCount++;
                 }
-                else
-                {
+            
                     if (currency == "AZN")
                     {
                         mebleq = mebleq * 0.513;
@@ -82,7 +81,7 @@ public static class CashRegister
                         dict[CurrencyType.EUR] += mebleq;
                         TotalSalesCount++;
                     }
-                }
+                
 
         }
         else if (currency2 == "USD")
@@ -93,8 +92,7 @@ public static class CashRegister
                     dict[CurrencyType.USD] += mebleq;
                     TotalSalesCount++;
                 }
-                else
-                {
+                
                     if (currency == "AZN")
                     {
                         mebleq = mebleq * 0.5886;
@@ -113,7 +111,7 @@ public static class CashRegister
                         dict[CurrencyType.USD] += mebleq;
                         TotalSalesCount++;
                     }
-                }
+                
         }
         if (currency2 == "AZN")
         {
@@ -123,8 +121,7 @@ public static class CashRegister
                     dict[CurrencyType.AZN] += mebleq;
                     TotalSalesCount++;
                 }
-                else
-                {
+                
                     if (currency == "USD")
                     {
                         mebleq = mebleq * 1.7;
@@ -143,7 +140,7 @@ public static class CashRegister
                         dict[CurrencyType.AZN] += mebleq;
                         TotalSalesCount++;
                     }
-                }
+                
         }
         if (currency2 == "TL")
         { 
@@ -153,8 +150,7 @@ public static class CashRegister
                     dict[CurrencyType.TL] += mebleq;
                     TotalSalesCount++;
                 }
-                else
-                {
+                
                     if (currency == "USD")
                     {
                         mebleq = mebleq * 13.57;
@@ -173,7 +169,7 @@ public static class CashRegister
                         dict[CurrencyType.TL] += mebleq;
                         TotalSalesCount++;
                     }
-                }
+                
         }
     }
 
