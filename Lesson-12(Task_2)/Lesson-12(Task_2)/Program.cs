@@ -30,6 +30,7 @@ public class HelloWorld
             secim = Console.ReadLine();
         }
         CashRegister.Show();
+        Console.ReadLine();
     }
 }
 public static class CashRegister
@@ -38,7 +39,14 @@ public static class CashRegister
     public static int TotalSalesCount=0;
     public static int TotalRemoveCount = 0;
     public static CurrencyType Currency;
-    public static Dictionary<CurrencyType,double> dict = new Dictionary<CurrencyType,double>();
+    public static Dictionary<CurrencyType,double> dict = new Dictionary<CurrencyType, double>()
+    {
+        { CurrencyType.EUR,0},
+        { CurrencyType.AZN,0},
+        {CurrencyType.USD,0},
+        {CurrencyType.TL,0 }
+    };
+
 
 
 
@@ -48,13 +56,6 @@ public static class CashRegister
         string currency2 = Console.ReadLine();
         if (currency2 == "EUR")
         {
-            
-            if (!dict.ContainsKey(CurrencyType.EUR)) { 
-                dict.Add(CurrencyType.EUR, mebleq);
-                TotalSalesCount++;
-            }
-            else
-            {
                 
                 if(currency2 == currency)
                 {
@@ -82,18 +83,10 @@ public static class CashRegister
                         TotalSalesCount++;
                     }
                 }
-            }
 
         }
         else if (currency2 == "USD")
         {
-            if (!dict.ContainsKey(CurrencyType.USD))
-            {
-                dict.Add(CurrencyType.USD, mebleq);
-                TotalSalesCount++;
-            }
-            else
-            {
 
                 if (currency2 == currency)
                 {
@@ -121,17 +114,9 @@ public static class CashRegister
                         TotalSalesCount++;
                     }
                 }
-            }
         }
         if (currency2 == "AZN")
         {
-            if(!dict.ContainsKey(CurrencyType.AZN))
-            {
-                dict.Add(CurrencyType.AZN, mebleq);
-                TotalSalesCount++;
-            }
-            else
-            {
 
                 if (currency2 == currency)
                 {
@@ -159,17 +144,9 @@ public static class CashRegister
                         TotalSalesCount++;
                     }
                 }
-            }
         }
         if (currency2 == "TL")
-        {
-            if (!dict.ContainsKey(CurrencyType.TL))
-            {
-                dict.Add(CurrencyType.TL, mebleq);
-                TotalSalesCount++;
-            }
-            else
-            {
+        { 
 
                 if (currency2 == currency)
                 {
@@ -197,7 +174,6 @@ public static class CashRegister
                         TotalSalesCount++;
                     }
                 }
-            }
         }
     }
 
@@ -208,7 +184,7 @@ public static class CashRegister
         if (currency2 == "EUR")
         {
 
-            if (!dict.ContainsKey(CurrencyType.EUR))
+            if (dict[CurrencyType.EUR]==0)
             {
                 Console.WriteLine("Bu kassada satiw aparilmiyib.");
             }
@@ -246,7 +222,7 @@ public static class CashRegister
         }
         else if (currency2 == "USD")
         {
-            if (!dict.ContainsKey(CurrencyType.USD))
+            if (dict[CurrencyType.USD] == 0)
             {
                 Console.WriteLine("Bu kassada satiw aparilmiyib.");
             }
@@ -283,7 +259,7 @@ public static class CashRegister
         }
         if (currency2 == "AZN")
         {
-            if (!dict.ContainsKey(CurrencyType.AZN))
+            if (dict[CurrencyType.AZN] == 0)
             {
                 Console.WriteLine("Bu kassada satiw aparilmiyib.");
             }
@@ -320,7 +296,7 @@ public static class CashRegister
         }
         if (currency2 == "TL")
         {
-            if (!dict.ContainsKey(CurrencyType.TL))
+            if (dict[CurrencyType.TL] == 0)
             {
                 Console.WriteLine("Bu kassada satiw aparilmiyib.");
             }
