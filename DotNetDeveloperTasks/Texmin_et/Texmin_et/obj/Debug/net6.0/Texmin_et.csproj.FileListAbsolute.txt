@@ -1,0 +1,15 @@
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\bin\Debug\net6.0\Texmin_et.exe
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\bin\Debug\net6.0\Texmin_et.deps.json
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\bin\Debug\net6.0\Texmin_et.runtimeconfig.json
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\bin\Debug\net6.0\Texmin_et.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\bin\Debug\net6.0\ref\Texmin_et.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\bin\Debug\net6.0\Texmin_et.pdb
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.csproj.AssemblyReference.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.AssemblyInfoInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.AssemblyInfo.cs
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.csproj.CoreCompileInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\ref\Texmin_et.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.pdb
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Texmin_et\Texmin_et\obj\Debug\net6.0\Texmin_et.genruntimeconfig.cache
