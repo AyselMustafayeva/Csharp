@@ -1,0 +1,15 @@
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\bin\Debug\net6.0\Virual_cards.exe
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\bin\Debug\net6.0\Virual_cards.deps.json
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\bin\Debug\net6.0\Virual_cards.runtimeconfig.json
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\bin\Debug\net6.0\Virual_cards.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\bin\Debug\net6.0\ref\Virual_cards.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\bin\Debug\net6.0\Virual_cards.pdb
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.AssemblyInfoInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.AssemblyInfo.cs
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.csproj.CoreCompileInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\ref\Virual_cards.dll
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.pdb
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.genruntimeconfig.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\DotNetDeveloperTasks\Virual_cards\Virual_cards\obj\Debug\net6.0\Virual_cards.csproj.AssemblyReference.cache
