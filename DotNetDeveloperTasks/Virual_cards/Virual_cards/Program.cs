@@ -5,9 +5,18 @@ class HelloWorld
     static void Main()
     {
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("Hello, if you want to create a virtual card,then first set the amount of money in your card(AZN)");
+        Console.WriteLine("Hello, if you want to create a virtual card,then first register your card");
         Console.ForegroundColor = ConsoleColor.White;
-        Esas_card.AddEsasCardPul();
+        Console.WriteLine("Please enter when your main card is deactivated.\nPlease enter the year:  ");
+        int year=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please enter the day: ");
+        int dayesas = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please enter the month: ");
+        int month = Convert.ToInt32(Console.ReadLine());
+        DateTime esas_card_deactiv= new DateTime(year, month, dayesas);
+        Esas_card esascard=new Esas_card(esas_card_deactiv);
+        Console.WriteLine("Please enter how much money is in your card: ");
+        esascard.Umumipul=Convert.ToInt32(Console.ReadLine());
         string contin = "Y";
         while (contin == "Y")
         {
@@ -19,13 +28,11 @@ class HelloWorld
             Console.ForegroundColor = ConsoleColor.White;
             if (secim == "1" || secim == "Y")
             {
-                if (Esas_card.umumipul != 0)
+                if (esascard.Umumipul != 0)
                 {
                     Console.WriteLine("How much money do you want to invest in the card: ");
                     int pul = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Enter how many days your card will be active starting from today: ");
-                    double day = Convert.ToDouble(Console.ReadLine());
-                    Virual_Card card = new Virual_Card(pul, day);
+                    Virual_Card card = new Virual_Card(pul,esascard);
                     Virual_Card.Cardgebulu(card);
                 }
                 else
@@ -40,13 +47,13 @@ class HelloWorld
             }
             if (secim == "3")
             {
-                Esas_card.ShowEsasCardPul();
+                Esas_card.ShowEsasCardPul(esascard);
 
             }
             if (secim == "4")
             {
                 
-                Virual_Card.CardRemove();
+                Virual_Card.CardRemove(esascard);
 
             }
             Console.ForegroundColor = ConsoleColor.Green;
@@ -66,17 +73,28 @@ public class Virual_Card
     DateTime time;
     static List<Virual_Card> card_yiqan = new List<Virual_Card>();
 
-    public Virual_Card(int pul, double days)
+    public Virual_Card(int pul, Esas_card obyect)
     {
-        while (Esas_card.umumipul < pul)
+        while (obyect.Umumipul < pul)
         {
             Console.WriteLine("Your card has less money, please re-enter");
             pul = Convert.ToInt32(Console.ReadLine());
         }
         mebleq = pul;
-        Esas_card.umumipul -= mebleq;
+        obyect.Umumipul -= mebleq;
         DateTime time2 = DateTime.Now;
-        time=time2.AddDays(days);
+        Console.WriteLine("Enter how many days your card will be active starting from today: ");
+        int days = Convert.ToInt32(Console.ReadLine());
+        time = time2.AddDays(days);
+        while (obyect.Data.Subtract(time).Hours<0)
+        {
+            Console.WriteLine("sorry, but the time of your deactivation must not exceed the time of deactivation of the main card");
+            Console.WriteLine("Please, enter again: ");
+            time2 = DateTime.Now;
+            days = Convert.ToInt32(Console.ReadLine());
+            time = time2.AddDays(days);
+        }
+        
         var random = new Random();
         for (int i = 0; i < 16; i++)
         {
@@ -95,7 +113,7 @@ public class Virual_Card
             Console.WriteLine("Sorry, you have already created 5 сards.\nIf you want to create a new one,\nthen delete one of the other cards ");
         }
     }
-    public static void CardRemove()
+    public static void CardRemove(Esas_card obyect)
     {
         if (card_yiqan.Count == 0)
         {
@@ -109,16 +127,20 @@ public class Virual_Card
             string nomresi = Console.ReadLine();
             for (int j = 0; j < card_yiqan.Count; j++)
             {
-                say = j + 1;
+                
                     if (card_yiqan[j].bankkart == nomresi)
                     {
-                        Esas_card.umumipul += card_yiqan[j].mebleq;
+                        obyect.Umumipul += card_yiqan[j].mebleq;
                         card_yiqan.Remove(card_yiqan[j]);
                         Console.WriteLine("This card was deleted");
                     }
+                    else
+                     {
+                    say += 1;
+                    }
                 
             }
-            if (say == card_yiqan.Count)
+            if ((say-1) == card_yiqan.Count)
             {
                 Console.WriteLine("You entered the wrong card number");
             }
@@ -145,16 +167,57 @@ public class Virual_Card
     }
 
 }
-public static class Esas_card
+public class Esas_card
 {
-    public static int umumipul;
-    public static void AddEsasCardPul()
+     int umumipul;
+     string nomresi;
+     DateTime timeEsas;
+
+    public Esas_card(DateTime time)
     {
-        umumipul = Convert.ToInt32(Console.ReadLine());
+        
+        
+        bool result = true;
+        int say = 0;
+        while (result)
+        {
+            Console.WriteLine("Please,enter your main card number( The number must contain 16 numbers) : ");
+            string nomre = Console.ReadLine();
+            char[] arrayim = nomre.ToCharArray();
+            if (nomre.Length == 16)
+            {
+                for(int n = 0; n < arrayim.Length; n++)
+                {
+                    if (Char.IsDigit(arrayim[n]))
+                    {
+                        say += 1;
+                    }
+                }
+                if (say == arrayim.Length)
+                {
+                    nomresi = nomre;
+                    result = false;
+                }
+            }
+        }
+        timeEsas = time;
     }
-    public static void ShowEsasCardPul()
+    public int Umumipul
+    {
+        get { return umumipul; }
+        set { umumipul = value; }
+    }
+    public DateTime Data
+    {
+        get { return timeEsas; }
+        set { timeEsas = value; }
+    }
+    public Esas_card(){
+
+        }
+    public static void ShowEsasCardPul(Esas_card obyect)
     {
        
-        Console.WriteLine("On your main сard is " + umumipul + " AZN.");
+        Console.WriteLine("On your main сard is " + obyect.Umumipul + " AZN.");
     }
 }
