@@ -1,0 +1,12 @@
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.csproj.AssemblyReference.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Login.resources
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Properties.Resources.resources
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.csproj.GenerateResource.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.csproj.CoreCompileInputs.cache
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\bin\Debug\Login-Registr.exe.config
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\bin\Debug\Login-Registr.exe
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\bin\Debug\Login-Registr.pdb
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.exe
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.pdb
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Registr.resources
