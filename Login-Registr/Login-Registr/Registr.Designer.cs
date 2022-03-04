@@ -40,6 +40,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -157,12 +158,25 @@
             this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 12;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Yellow;
+            this.button2.ForeColor = System.Drawing.Color.Blue;
+            this.button2.Location = new System.Drawing.Point(154, 222);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(131, 37);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "Close";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Registr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(600, 350);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
@@ -177,6 +191,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Registr";
             this.Text = "Registration";
+            this.Load += new System.EventHandler(this.Registr_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,5 +212,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -68,8 +68,10 @@ namespace Login_Registr
 
         private void ShowRegistr(object sender, EventArgs e)
         {
+            
             var registration = new Registr();
             registration.Show();
+            this.Hide();
         }
         private void User_App(object sender, EventArgs e)
         {
@@ -77,10 +79,16 @@ namespace Login_Registr
             {
                 if (user.Email == Email && user.Password==Password)
                 {
+                    ChangeUser.Change_email(Email);
+                    ChangeUser.Change_password(Password);
+
                     UsersApp usersApp = new UsersApp();
                     usersApp.Show();
+                    this.Hide();
+
                 }
             }
+            
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -96,6 +104,21 @@ namespace Login_Registr
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             Password = textBox2.Text;
+        }
+    }
+    public static class ChangeUser
+    {
+        public static List<string> Change_E_mail=new List<string>();
+        public static List<string> Change_Password=new List<string>();
+        public static void Change_email(string Email)
+        {
+            Change_E_mail.Clear();
+            Change_E_mail.Add(Email);
+        }
+        public static void Change_password(string Password)
+        {
+            Change_Password.Clear();
+            Change_Password.Add(Password);
         }
     }
 }

@@ -123,7 +123,7 @@ namespace Login_Registr
         {
             var random = new Random();
             string passw = "";
-            string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,-+/|@";
+            string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,-+/|@";
             int boyukherf = 0;
             int regem = 0;
             Random rnd = new Random();
@@ -169,6 +169,8 @@ namespace Login_Registr
             label8.Text = PASSWORD;
             User users = new User(ID, NAME, SURNAME, EMAIL, PASSWORD);
             User_list.Add(users);
+            Login login = new Login();
+            login.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -189,6 +191,16 @@ namespace Login_Registr
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             EMAIL = textBox3.Text;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           this.Hide();
+        }
+
+        private void Registr_Load(object sender, EventArgs e)
+        {
+
         }
     }
     public class User
