@@ -87,6 +87,13 @@ namespace Login_Registr
                     this.Hide();
 
                 }
+                
+            }
+            if(Email=="mustA25@gmail.com" && Password == "MyParol2120")
+            {
+                Admin admin = new Admin();
+                admin.Show();
+                this.Hide();
             }
             
         }

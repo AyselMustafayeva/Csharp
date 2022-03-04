@@ -169,8 +169,7 @@ namespace Login_Registr
             label8.Text = PASSWORD;
             User users = new User(ID, NAME, SURNAME, EMAIL, PASSWORD);
             User_list.Add(users);
-            Login login = new Login();
-            login.Show();
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -201,6 +200,13 @@ namespace Login_Registr
         private void Registr_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
     }
     public class User

@@ -13,3 +13,5 @@ C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\L
 C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.UsersApp.resources
 C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Change_Email.resources
 C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Chang_Pass.resources
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Admin.resources
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Admin_delete_users.resources
