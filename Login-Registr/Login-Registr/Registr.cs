@@ -169,8 +169,6 @@ namespace Login_Registr
             label8.Text = PASSWORD;
             User users = new User(ID, NAME, SURNAME, EMAIL, PASSWORD);
             User_list.Add(users);
-            Login login = new Login();
-            login.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
