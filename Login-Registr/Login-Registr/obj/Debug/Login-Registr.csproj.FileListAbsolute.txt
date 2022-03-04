@@ -10,3 +10,4 @@ C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\bin\Debug\L
 C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.exe
 C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login-Registr.pdb
 C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.Registr.resources
+C:\Users\Aysel Mustafayeva\Desktop\Tasks\Login-Registr\Login-Registr\obj\Debug\Login_Registr.UsersApp.resources

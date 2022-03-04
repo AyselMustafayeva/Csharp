@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UsersApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersApp.Designer.cs">
+      <DependentUpon>UsersApp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Registr.resx">
       <DependentUpon>Registr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersApp.resx">
+      <DependentUpon>UsersApp.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
