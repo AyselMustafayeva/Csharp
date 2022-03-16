@@ -137,7 +137,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Admin";
-            this.Text = "Admin";
+            this.Text = "AdminApp";
             this.Load += new System.EventHandler(this.Admin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
