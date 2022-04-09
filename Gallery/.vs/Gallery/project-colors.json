@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "30ccb0e8-824c-4e34-a7a2-f5d78fedcd43": {
+      "ProjectGuid": "30ccb0e8-824c-4e34-a7a2-f5d78fedcd43",
+      "DisplayName": "Gallery",
+      "ColorIndex": 0
+    },
+    "818daad1-8eb3-4bcc-8e4e-d2bb159499ae": {
+      "ProjectGuid": "818daad1-8eb3-4bcc-8e4e-d2bb159499ae",
+      "DisplayName": "Pictures",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -166,7 +166,8 @@ namespace Login_Registr
             ID= Convert.ToString(rnd.Next(1000, 10000));
             label9.Text = ID;
             NewPassword(out PASSWORD);
-            label8.Text = PASSWORD;
+            textBox4.Text = PASSWORD;
+            textBox4.ReadOnly=true;
             User users = new User(ID, NAME, SURNAME, EMAIL, PASSWORD);
             User_list.Add(users);
             
@@ -207,6 +208,11 @@ namespace Login_Registr
             Login login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     public class User
